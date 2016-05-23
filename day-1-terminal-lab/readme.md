@@ -103,4 +103,3 @@ Be sure you open up your "my-favorite-things" directory in Sublime/Atom, so you 
 ## Additional Resources
 
 - A list of [CLI Shortcuts](https://gist.github.com/alexpchin/01caa027b825d5f98871)
-- An awesome Unix command [cheat 

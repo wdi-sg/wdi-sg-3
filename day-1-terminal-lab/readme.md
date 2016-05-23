@@ -1,4 +1,4 @@
-# Command line lab
+# Terminal Lab
 
 ## Introduction
 

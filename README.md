@@ -17,7 +17,7 @@ __You must also use this repo to notify of your completed homework. Follow the C
 - Clone your forked repository on your local computer
     + `git clone http://url_of_your_fork_on_github.git`
 - Add an upstream, so that your local copy's remote is pointing to my repository on Github (this repository)
-    + Move into the the repository `cd sg-wdi-2-materials`
+    + Move into the the repository `cd sg-wdi-3`
     + `git remote add upstream https://github.com/jeremiahalex/wdi-sg-3`
     + `git pull upstream master`
 - Create your own directory in the `students/` directory

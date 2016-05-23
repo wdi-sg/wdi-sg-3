@@ -1,13 +1,3 @@
----
-title: Command line lab
-type: lab
-duration: "1:25"
-creator:
-    name: Jay Nappy
-    city: LA
-competencies: Workflow
----
-
 # Command line lab
 
 ## Introduction

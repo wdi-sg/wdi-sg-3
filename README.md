@@ -1,6 +1,7 @@
 # WDI SG 3
-This is the main workspace for WDI SG 3. Here you will find all the course materials: assignments, starter-code etc. 
-Lesson notes will be kept in the [wiki](https://github.com/jeremiahalex/wdi-sg-3/wiki). 
+This is the main workspace for WDI SG 3. Here you will find all the course materials: assignments, starter-code etc.   
+Lesson notes will be kept in the [wiki](https://github.com/jeremiahalex/wdi-sg-3/wiki).   
+Our lesson schedule is updated weekly in our [google calendar] (https://calendar.google.com/calendar/embed?src=generalassemb.ly_hur7v9j9m8e2a463ls76b5ipfs%40group.calendar.google.com&ctz=Asia/Singapore).
 
 If you have issues you can [raise them as issues](https://github.com/jeremiahalex/wdi-sg-3/issues).
 

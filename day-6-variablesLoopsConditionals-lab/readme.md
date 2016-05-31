@@ -19,10 +19,12 @@ We're going to build a basic bot that will allow a user to book a table and orde
     //ask them how many they want a table for
     //if the number if greater than 0 but less than the restaurant capacity then continue to ask them what they want to eat
     //else apologise and offer them a discount next time
+    ```
     
 0. Finally you should write the conditional logic and use console.logs to output it.
 
-    ```javascript
+    ```
+    javascript
     //if the user's name is same as last time welcome them back
     if ( name === lastUserName ) {
         console.log("welcome back " + name);

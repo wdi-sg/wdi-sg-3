@@ -18,12 +18,15 @@
 
 ### Labs
 
-* [**Restaurant Bot**](http://sprazzeus.github.io/wdi/01-Unit1/06-lab-variablesLoopsConditionals/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/06-lab-variablesLoopsConditionals))
+* **Variables, Loops, Conditionals**:
+[**Restaurant Bot**](http://sprazzeus.github.io/wdi/01-Unit1/06-lab-variablesLoopsConditionals/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/06-lab-variablesLoopsConditionals))
 
 * **Functions** (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/07-lab-functions))
 
-* [** Timer**](http://sprazzeus.github.io/wdi/01-Unit1/08-lab-callbacks/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/08-lab-callbacks))
+* **Callbacks**:
+[** Timer**](http://sprazzeus.github.io/wdi/01-Unit1/08-lab-callbacks/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/08-lab-callbacks))
 
+* **JQuery**: [**Ball**](http://sprazzeus.github.io/wdi/01-Unit1/09-lab-jquery/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/09-lab-jquery))
 
 ### Project (Tic Tac Toe)
 

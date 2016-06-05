@@ -19,14 +19,14 @@ This is a tough assignment, so don't stress over meeting all the requirements. J
 5. Inside your click handler for the start button...
   - Replace "Stop Watch" in the HTML with the content of the `seconds` variable.
   - Use `setInterval()` to increment the timer by 1 every second.
-6. Inside your click handler for the pause button...
+<!-- 6. Inside your click handler for the pause button...
   - Stop -- but do not reset! -- the timer using `clearInterval()`.
 7. Once again, inside your click handler for the start button...
   - Make sure the timer starts back up when you hit the "Start" button after hitting "Pause".
 8. Inside your click handler for the reset button...
   - Stop the timer using `clearInterval()`.
   - Reset the timer.
-  - Replace the time in your HTML with the original "Stop Watch" text.
+  - Replace the time in your HTML with the original "Stop Watch" text. -->
 
 **Bonus**
 

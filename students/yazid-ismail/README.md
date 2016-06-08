@@ -10,6 +10,10 @@ https://flight846.github.io/wdi-bio-responsive-WIP/
 - Week 2 Day 3 homework- TimerJS
 https://github.com/flight846/wdi3-timerjs
 
-- Week 2 Day 4 homework- Tic Tac Toe Game
+##Links to Projects
+
+- Week 2 Day 5 Mini Project- Tic Tac Toe Game
 http://flight846.github.io/wdi-tictactoe-project/
 
+- Project 1a- HTML Quiz
+http://flight846.github.io/wdi-project1a-html-quiz-game/

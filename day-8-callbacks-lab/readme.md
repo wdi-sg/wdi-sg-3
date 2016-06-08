@@ -26,7 +26,7 @@ This is a tough assignment, so don't stress over meeting all the requirements. J
 8. Inside your click handler for the reset button...
   - Stop the timer using `clearInterval()`.
   - Reset the timer.
-  - Replace the time in your HTML with the original "Stop Watch" text.
+  - Replace the time in your HTML with the original "Stop Watch" text. 
 
 **Bonus**
 

@@ -1,4 +1,5 @@
-# Name: Geng Sng
+# Geng Sng
+General Assembly Singapore Web Development Immersive student. Currently in week 3!
 
 ## Projects Completed
 

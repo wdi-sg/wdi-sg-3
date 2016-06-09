@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title> Math Game</title>
+    <!-- //JAVASCRIPT -->
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"   integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="   crossorigin="anonymous"></script>
+        <script src="./mathgame.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="./mathgame.css">
+
+  </head>
+
+  <body class="flex-wrapper">
+
+      <div class="flex-child header">
+      <h1>THE MATH GAME</h1>
+      </div>
+
+
+    <div class="flex-child main-content-left content">
+
+          <!-- RESULTS-->
+                <div class=section>
+                    <div id=results>Click on START button...</div>
+                </div>
+
+          <!-- TIMESPENT -->
+                <div class=section>
+                  <div>Time Spent</div>
+                  <div class=timer>5</div>
+                </div>
+
+          <!-- QUESTION -->
+                <div class=section>
+                    <div>Current Question</div>
+                    <div id=currentquestion>1 out of 10</div>
+                  </div>
+
+
+          <!-- TOTALSCORE-->
+                <div class=section>
+                  <div>Total Score</div>
+                  <div id=player1score>0</div>
+                </div>
+
+    </div>
+
+
+        <div class="flex-child side-content-right content">
+
+
+          <div class=mathboard>
+            <h5 id=1stnumber>X</h5>
+            <h5 id=sign> + </h5>
+            <h5 id=2ndnumber>Y</h5>
+            <h5> = </h5>
+            <h5> <input id=answer type='text' maxlength='2' minlength='1'answer here> </h5>
+
+          </div>
+
+        </div>
+
+    <div class="flex-child footer">
+      <button id=start>START BUTTON</button>
+    </div>
+
+  </body>
+</html>

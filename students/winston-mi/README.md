@@ -14,5 +14,6 @@
 
 
 ### Projects
-<!-- * Project 1 - Game using HTML, CSS, and Javascript
-    - [Name of Game](http://) -->
+Project 1 - Game using HTML, CSS, and Javascript
+    - [MRT Pun Game](https://github.com/winstonmi/the-game)
+    (http://winstonmi.github.io/the-game/project1a.html)

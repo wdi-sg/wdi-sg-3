@@ -17,3 +17,6 @@ http://flight846.github.io/wdi-tictactoe-project/
 
 - Project 1a- HTML Quiz
 http://flight846.github.io/wdi-project1a-html-quiz-game/
+
+- Project 1b- HTML Game (Simons Says)
+http://flight846.github.io/wdi-project1b-ONaG/

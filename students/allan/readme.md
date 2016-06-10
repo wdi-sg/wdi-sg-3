@@ -1,15 +1,11 @@
-Allan Lee Projects
-1. Tic-Tac-Toe Game 
-Bonus: Added AI (using random)
+Allan Lee
 
-2. Move the ball
-Bonus: Move the ball to follow the mouse
+Added mini project one (Biography of someone who inspired me)
 
-3. Restaurant System
-Bonus: Added an interface on HTML, CSS & jQuery
+http://allanlee7889.github.io/gh-pages-mini-project-1/
 
-4. Biography Page
-Bonus: Use jQuery to change Flexbox order properties to dynamically change layouts.
+Added jQuery lab exercise on move the ball.
 
-* Host on your Github pages.
-* Update Student Readme.md in shared repo.
+Added Tic Tac Toe
+http://allanlee7889.github.io/tictactoe/
+

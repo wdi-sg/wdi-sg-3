@@ -1,18 +1,24 @@
 #Evon-Tay
-##Biography
-Link: http://fumblies.github.io/miniproj1/
+##1. Biography
+Github:https://github.com/evontay/miniproj1
+Link: http://evontay.github.io/miniproj1/
 
-##Restaurant Bot
-Link: http://fumblies.github.io/Restaurant-Bot/
+##2. Restaurant Bot
+Github: https://github.com/evontay/Restaurant-Bot
+Link: http://evontay.github.io/Restaurant-Bot/
 
-##Ball Moving
-Link: http://fumblies.github.io/move-the-ball/
+##3. Ball Moving
+Github: https://github.com/evontay/move-the-ball
+Link: http://evontay.github.io/move-the-ball/
 
-##Tic-Tac-Toe
-Link: http://fumblies.github.io/tictactoe/
+##4. Tic-Tac-Toe
+Github: https://github.com/evontay/tictactoe
+Link: http://evontay.github.io/tictactoe/
 
-##Quizzo
-Link: http://fumblies.github.io/quizzo/
+##5. Quizzo
+Github: https://github.com/evontay/quizzo
+Link: http://evontay.github.io/quizzo/
 
-##Morse Decoder Game
-Link: http://fumblies.github.io/morse-game
+##6. Morse Decoder Game
+Github: https://github.com/evontay/morse-game
+Link: http://evontay.github.io/morse-game

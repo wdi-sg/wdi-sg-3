@@ -31,3 +31,13 @@
 ### Project (Tic Tac Toe)
 
 * #### [☁ vs ✈](http://sprazzeus.github.io/wdi/01-Unit1/00-week2-project-tictactoe/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-week2-project-tictactoe))
+
+## WEEK 3
+
+### Project 1a — The Game [(Stroop Quiz)](https://sprazzeus.github.io/wdi/01-Unit1/00-project1a-theGame/index.html)
+
+View on [GitHub](00-project1a-theGame).
+
+### Project 1b —  [(Mastermind)](http://sprazzeus.github.io/wdi/01-Unit1/00-project1b/)
+
+View on [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-project1b).

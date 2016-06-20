@@ -1,0 +1,86 @@
+* {
+  margin: 5px;
+  padding: 5px;
+  padding-color: white;
+  font-family: 'Open Sans', sans-serif;
+}
+
+header {
+  background: grey;
+  height: 200px;
+}
+
+h1{
+  text-align: right;
+  padding-top: 150px;
+}
+
+/* creating two flexbox containers (horizontal containers to contain columns and 
+vertical containers to contain rows) which can be reused*/
+.horz-container {
+  display: flex;
+  flex-direction: row;
+  background: #6f4e37;
+  border: 5px solid black;
+}
+
+.vert-container {
+  display: flex;
+  flex-direction: column;
+  background: #B01E00;
+  border: 5px solid black;
+}
+
+/*creating flexbox "child" classes (rows and columns) which can be reused*/
+.col-2 {
+  flex: 2;
+  background: #6f4e37;
+}
+
+.col-10 {
+  flex: 10;
+  background: #6f4e37;
+}
+
+.row-3 {
+  flex: 3;
+  background: #B01E00;
+}
+
+.row-6 {
+  flex: 6;
+  background: #B01E00;
+}
+
+/*flexboxes for the navbar*/
+.nav-bar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background: #pink;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.nav-btn {
+  list-style: none;
+  display: inline;
+  flex: 1 0 200px;
+  background: #1B58B8;
+  text-align: center;
+  padding: 10px;
+}
+
+
+h1 {
+  text-align: right;
+  size: 2em;
+  font-weight: bold;
+}
+
+/* media query formatting for mobile devices*/
+@media (max-width: 600px) {
+  .horz-container, .vert-container {
+    flex-direction: column
+  }
+}

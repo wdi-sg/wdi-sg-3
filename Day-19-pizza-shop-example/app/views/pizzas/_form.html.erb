@@ -17,8 +17,9 @@
   </div>
 
   <div class="field">
-    <%= f.label :cheese %>
-    <%= f.check_box :cheese %>
+    <%= f.label :topping_ids %>
+    <%= f.collection_select :topping_ids, Topping.all, :id, :name, {},
+    {:multiple => true} %>
   </div>
 
   <div class="actions">

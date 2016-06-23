@@ -1,0 +1,14 @@
+<% if @customer.premium_member? %>
+  <strong>
+    <%= @customer.full_name %>
+  </strong>
+<% else %>
+  <%= @customer.full_name %>
+<% end %>
+
+<h1>Orders</h1>
+<% @customer.orders.each do |order| %>
+  <h3>Order number: <%= order.created_at %></h3>
+<% end %>
+
+<%= link_to 'Destroy', @customer, method: :delete, data: { confirm: 'Are you sure?' } %>

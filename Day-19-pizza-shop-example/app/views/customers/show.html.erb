@@ -1,0 +1,27 @@
+<h2>
+  <% if @customer.premium_member? %>
+    <strong>
+      *
+    </strong>
+  <% end %>
+  <%= @customer.full_name %>
+</h2>
+<%= link_to 'Destroy', @customer, method: :delete, data: { confirm: 'Are you sure?' } %>
+<hr />
+
+<h3>Orders</h3>
+<% @customer.orders.each do |order| %>
+  <h4><%= order.name %></h4>
+  <ul>
+    <% order.order_items.each do |order_item| %>
+      <li><%= order_item.name %></li>
+    <% end %>
+  </ul>
+<% end %>
+
+<h3>Pizzas</h3>
+<ul>
+  <% @customer.pizzas.each do |pizza| %>
+    <li><%= pizza.name %></li>
+  <% end %>
+</ul>

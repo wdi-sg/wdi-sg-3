@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  order: one
+  pizza: one
+  price: 9.99
+  size: 1
+
+two:
+  order: two
+  pizza: two
+  price: 9.99
+  size: 1

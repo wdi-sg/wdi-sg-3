@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PizzaShop</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <h1><%= link_to "Pizza Shop", root_path %></h1>
+    <ul class="nav">
+      <li><%= link_to "Customers", customers_path %></li>
+      <li><%= link_to "Toppings", toppings_path %></li>
+      <li><%= link_to "Pizzas", pizzas_path %></li>
+      <li><%= link_to "Orders", orders_path %></li>
+      <li><%= link_to "Order Items", order_items_path %></li>
+    </ul>
+    <hr />
+    <%= yield %>
+  </body>
+</html>

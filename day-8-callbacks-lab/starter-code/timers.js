@@ -29,7 +29,12 @@ function Pause () {
   console.log('Pause Clicked');
 }
 
+<<<<<<< HEAD
 function updateTime () {
   seconds++;
   UpdateText();
+=======
+function Pause() {
+    console.log("Pause Clicked");
+>>>>>>> 0f3f7d8c2001e35e36c341e43490e3bc2f753ce9
 }

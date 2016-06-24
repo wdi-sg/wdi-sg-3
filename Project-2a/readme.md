@@ -45,4 +45,5 @@ There's lots of opportunity for you to then turn this into twitter, feedback, me
 
 
 ### How to run tests
+The tests expect a user and post MVC before you can run it. So generate/scaffold your user and post model before you run the tests.
 in terminal, run `rspec spec`

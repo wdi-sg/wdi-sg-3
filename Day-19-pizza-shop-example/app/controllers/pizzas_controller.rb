@@ -5,11 +5,14 @@ class PizzasController < ApplicationController
   # GET /pizzas.json
   def index
     @pizzas = Pizza.all
+
+    # Pizza.new(params.require(:pizza).permit(:name, :topping_ids => []))
   end
 
   # GET /pizzas/1
   # GET /pizzas/1.json
   def show
+    # @pizza.orders << Order.create(customer_id: Customer.first.id)
   end
 
   # GET /pizzas/new
@@ -24,10 +27,11 @@ class PizzasController < ApplicationController
   # POST /pizzas
   # POST /pizzas.json
   def create
-    @pizza = Pizza.new(pizza_params)
+    @pizza = Pizza.new(params.require(:pizza).permit(:name, :topping_ids => []))
 
     respond_to do |format|
       if @pizza.save
+        # @pizza.toppings << Topping.first
         format.html { redirect_to @pizza, notice: 'Pizza was successfully created.' }
         format.json { render :show, status: :created, location: @pizza }
       else

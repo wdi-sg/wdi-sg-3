@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'secret_stuff/public_page'
+  get 'secret_stuff/secret_page'
+
   # get 'sessions/new'
   #
   # get 'sessions/create'
@@ -9,6 +12,7 @@ Rails.application.routes.draw do
   resources :users
 
   get 'login', to: 'sessions#new'
-  resources :sessions, only: [:new, :create, :destroy]
+  delete 'logout', to: 'sessions#destroy'
+  resources :sessions, only: [:create]
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end

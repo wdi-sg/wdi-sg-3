@@ -4409,3 +4409,433 @@ Processing by PizzasController#edit as HTML
 Completed 200 OK in 61ms (Views: 48.7ms | ActiveRecord: 1.8ms)
 
 
+Started GET "/customers/1" for ::1 at 2016-06-23 16:22:52 +0800
+Processing by CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering customers/show.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 1]]
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mOrderItem Load (0.5ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items" WHERE "order_items"."order_id" = $1[0m  [["order_id", 1]]
+  [1m[36mPizza Load (0.3ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mPizza Load (0.8ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas" INNER JOIN "order_items" ON "pizzas"."id" = "order_items"."pizza_id" INNER JOIN "orders" ON "order_items"."order_id" = "orders"."id" WHERE "orders"."customer_id" = $1[0m  [["customer_id", 1]]
+  Rendered customers/show.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 87ms (Views: 78.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/customers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/order_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/pizzas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/toppings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/application.self-56bdbf383d1d36ad89cbdff89e691ee13344a54f1c667b9d3760c9bc730f8722.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/customers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/order_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/application.self-b89234cf2659d7fedea75bca0b8d231ad7dfc2f3f57fcbaf5f44ed9dc384137b.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/assets/scaffolds.self-553ecde812e7f09bd262e2cb52ad2c8fc7434de92dd7fbe345f077ce254fa2c2.css?body=1" for ::1 at 2016-06-23 16:22:52 +0800
+Started GET "/" for ::1 at 2016-06-23 16:24:12 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/order_items" for ::1 at 2016-06-23 16:24:13 +0800
+Processing by OrderItemsController#index as HTML
+  Rendering order_items/index.html.erb within layouts/application
+  [1m[36mOrderItem Load (0.5ms)[0m  [1m[34mSELECT "order_items".* FROM "order_items"[0m
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPizza Load (0.3ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  Rendered order_items/index.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 52ms (Views: 44.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/orders" for ::1 at 2016-06-23 16:24:15 +0800
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 60ms (Views: 54.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/pizzas" for ::1 at 2016-06-23 16:24:15 +0800
+Processing by PizzasController#index as HTML
+  Rendering pizzas/index.html.erb within layouts/application
+  [1m[36mPizza Load (0.6ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 72ms (Views: 64.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/toppings" for ::1 at 2016-06-23 16:24:16 +0800
+Processing by ToppingsController#index as HTML
+  Rendering toppings/index.html.erb within layouts/application
+  [1m[36mTopping Load (0.4ms)[0m  [1m[34mSELECT "toppings".* FROM "toppings"[0m
+  Rendered toppings/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 56ms (Views: 50.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/customers" for ::1 at 2016-06-23 16:24:18 +0800
+Processing by CustomersController#index as HTML
+  Rendering customers/index.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered customers/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 62ms (Views: 54.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 17:35:29 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 60ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for ::1 at 2016-06-23 17:35:31 +0800
+Processing by PizzasController#index as HTML
+  Rendering pizzas/index.html.erb within layouts/application
+  [1m[36mPizza Load (0.4ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 68ms (Views: 43.5ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/pizzas/2" for ::1 at 2016-06-23 17:35:33 +0800
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPizza Load (0.5ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.6ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" ORDER BY "customers"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "orders" ("customer_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["customer_id", 1], ["created_at", 2016-06-23 09:35:33 UTC], ["updated_at", 2016-06-23 09:35:33 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["order_id", 2], ["pizza_id", 2], ["created_at", 2016-06-23 09:35:33 UTC], ["updated_at", 2016-06-23 09:35:33 UTC]]
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  Rendering pizzas/show.html.erb within layouts/application
+  [1m[36mTopping Load (0.4ms)[0m  [1m[34mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = $1[0m  [["pizza_id", 2]]
+  Rendered pizzas/show.html.erb within layouts/application (22.6ms)
+Completed 200 OK in 134ms (Views: 57.4ms | ActiveRecord: 23.7ms)
+
+
+Started GET "/pizzas" for ::1 at 2016-06-23 17:35:43 +0800
+Processing by PizzasController#index as HTML
+  Rendering pizzas/index.html.erb within layouts/application
+  [1m[36mPizza Load (0.4ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 52ms (Views: 44.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/orders" for ::1 at 2016-06-23 17:35:46 +0800
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.7ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 49ms (Views: 42.5ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/toppings" for ::1 at 2016-06-23 17:36:39 +0800
+Processing by ToppingsController#index as HTML
+  Rendering toppings/index.html.erb within layouts/application
+  [1m[36mTopping Load (0.4ms)[0m  [1m[34mSELECT "toppings".* FROM "toppings"[0m
+  Rendered toppings/index.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 66ms (Views: 48.9ms | ActiveRecord: 5.8ms)
+
+
+Started GET "/toppings/new" for ::1 at 2016-06-23 17:36:40 +0800
+Processing by ToppingsController#new as HTML
+  Rendering toppings/new.html.erb within layouts/application
+  Rendered toppings/_form.html.erb (2.6ms)
+  Rendered toppings/new.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 54ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for ::1 at 2016-06-23 17:37:26 +0800
+Processing by PizzasController#index as HTML
+  Rendering pizzas/index.html.erb within layouts/application
+  [1m[36mPizza Load (0.4ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 74ms (Views: 60.6ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/pizzas/new" for ::1 at 2016-06-23 17:37:27 +0800
+Processing by PizzasController#new as HTML
+  Rendering pizzas/new.html.erb within layouts/application
+  [1m[36mTopping Load (0.5ms)[0m  [1m[34mSELECT "toppings".* FROM "toppings"[0m
+  Rendered pizzas/_form.html.erb (31.7ms)
+  Rendered pizzas/new.html.erb within layouts/application (37.0ms)
+Completed 200 OK in 89ms (Views: 77.6ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/pizzas" for ::1 at 2016-06-23 17:37:34 +0800
+Processing by PizzasController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SiOQFNKExoq16GBt2zL1wusroHfYM+m6fQSJeXXdeYPPQjfG8Rw+W8qal9y164/uvpWTSRdKVwqho/JHV5Vh2A==", "pizza"=>{"name"=>"newpiza", "topping_ids"=>[""]}, "commit"=>"Create Pizza"}
+  [1m[36mTopping Load (0.4ms)[0m  [1m[34mSELECT "toppings".* FROM "toppings" WHERE 1=0[0m
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "pizzas" ("name", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["name", "newpiza"], ["created_at", 2016-06-23 09:37:34 UTC], ["updated_at", 2016-06-23 09:37:34 UTC]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mTopping Load (0.6ms)[0m  [1m[34mSELECT  "toppings".* FROM "toppings" ORDER BY "toppings"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "pizzas_toppings" ("pizza_id", "topping_id") VALUES ($1, $2)[0m  [["pizza_id", 3], ["topping_id", 1]]
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/pizzas/3
+Completed 302 Found in 24ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/pizzas/3" for ::1 at 2016-06-23 17:37:34 +0800
+Processing by PizzasController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPizza Load (0.4ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" WHERE "pizzas"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering pizzas/show.html.erb within layouts/application
+  [1m[36mTopping Load (0.6ms)[0m  [1m[34mSELECT "toppings".* FROM "toppings" INNER JOIN "pizzas_toppings" ON "toppings"."id" = "pizzas_toppings"."topping_id" WHERE "pizzas_toppings"."pizza_id" = $1[0m  [["pizza_id", 3]]
+  Rendered pizzas/show.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 45ms (Views: 39.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/orders" for ::1 at 2016-06-23 17:38:54 +0800
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/index.html.erb within layouts/application (31.6ms)
+Completed 200 OK in 71ms (Views: 55.4ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/orders/new" for ::1 at 2016-06-23 17:38:56 +0800
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.5ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered orders/_form.html.erb (5.7ms)
+  Rendered orders/new.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 60ms (Views: 50.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/orders" for ::1 at 2016-06-23 17:38:57 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hV4TDt9m/fmKYH6AyJ36wiK2hKw9lPDz2yGJytJYOe6tFyoBnssnqJv9jmuLTYDJ/1jr1nzA5LmRiuBUlt6p5A==", "order"=>{"customer_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.6ms)[0m  [1m[32mINSERT INTO "orders" ("customer_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["customer_id", 1], ["created_at", 2016-06-23 09:38:57 UTC], ["updated_at", 2016-06-23 09:38:57 UTC]]
+  [1m[35m (2.0ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPizza Load (0.4ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" ORDER BY "pizzas"."id" ASC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["order_id", 3], ["pizza_id", 2], ["created_at", 2016-06-23 09:38:58 UTC], ["updated_at", 2016-06-23 09:38:58 UTC]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/orders/3
+Completed 302 Found in 53ms (ActiveRecord: 14.0ms)
+
+
+Started GET "/orders/3" for ::1 at 2016-06-23 17:38:58 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 48ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/orders/3" for ::1 at 2016-06-23 17:40:04 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35m (0.7ms)[0m  [1m[34mSELECT COUNT(*) FROM "order_items" WHERE "order_items"."order_id" = $1[0m  [["order_id", 3]]
+  Rendered orders/show.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 52ms (Views: 44.6ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/customers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/toppings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/pizzas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/order_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/application.self-56bdbf383d1d36ad89cbdff89e691ee13344a54f1c667b9d3760c9bc730f8722.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/customers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/order_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/application.self-b89234cf2659d7fedea75bca0b8d231ad7dfc2f3f57fcbaf5f44ed9dc384137b.js?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/assets/scaffolds.self-553ecde812e7f09bd262e2cb52ad2c8fc7434de92dd7fbe345f077ce254fa2c2.css?body=1" for ::1 at 2016-06-23 17:40:04 +0800
+Started GET "/orders/3" for ::1 at 2016-06-23 17:40:16 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/show.html.erb within layouts/application (8.2ms)
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `pizza' for #<Order:0x007ffbc3121c38>
+Did you mean?  pizzas
+               pizzas=):
+    4:   <strong>Name</strong>
+    5:   <%= @order.name %>
+    6: </p>
+    7: <%= @order.pizza.name %>
+    8: 
+    9: <%= link_to 'Edit', edit_order_path(@order) %> |
+   10: <%= link_to 'Back', orders_path %>
+  
+app/views/orders/show.html.erb:7:in `_app_views_orders_show_html_erb___4191086055753507550_70359643128720'
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_source.html.erb (8.4ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendering /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /usr/local/lib/ruby/gems/2.3.0/gems/actionpack-5.0.0.rc1/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (101.2ms)
+Started GET "/orders/3" for ::1 at 2016-06-23 17:40:28 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mOrder Load (0.5ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 3], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPizza Load (0.7ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" INNER JOIN "order_items" ON "pizzas"."id" = "order_items"."pizza_id" WHERE "order_items"."order_id" = $1 ORDER BY "pizzas"."id" ASC LIMIT $2[0m  [["order_id", 3], ["LIMIT", 1]]
+  Rendered orders/show.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 76ms (Views: 69.6ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/customers.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/orders.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/home.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/order_items.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/pizzas.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/toppings.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/application.self-56bdbf383d1d36ad89cbdff89e691ee13344a54f1c667b9d3760c9bc730f8722.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/jquery.self-660adc51e0224b731d29f575a6f1ec167ba08ad06ed5deca4f1e8654c135bf4c.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/jquery_ujs.self-e87806d0cf4489aeb1bb7288016024e8de67fd18db693fe026fe3907581e53cd.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/turbolinks.self-ff1d37d088bcba87ddd5a9edcbdbf45f1103309d3785dfd2324d668bde626e5d.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/action_cable.self-97a1acc11db2782c1b61ce874bff887f64e903d3cb2b533eff50fb799c873c70.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/cable.self-6e0514260c1aa76eaf252412ce74e63f68819fd19bf740595f592c5ba4c36537.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/customers.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/home.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/order_items.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/orders.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/pizzas.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/toppings.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/application.self-b89234cf2659d7fedea75bca0b8d231ad7dfc2f3f57fcbaf5f44ed9dc384137b.js?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/assets/scaffolds.self-553ecde812e7f09bd262e2cb52ad2c8fc7434de92dd7fbe345f077ce254fa2c2.css?body=1" for ::1 at 2016-06-23 17:40:28 +0800
+Started GET "/pizzas" for ::1 at 2016-06-23 17:40:34 +0800
+Processing by PizzasController#index as HTML
+  Rendering pizzas/index.html.erb within layouts/application
+  [1m[36mPizza Load (0.4ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 47ms (Views: 43.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 17:40:48 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 47ms (Views: 43.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/pizzas" for ::1 at 2016-06-23 17:40:49 +0800
+Processing by PizzasController#index as HTML
+  Rendering pizzas/index.html.erb within layouts/application
+  [1m[36mPizza Load (0.3ms)[0m  [1m[34mSELECT "pizzas".* FROM "pizzas"[0m
+  Rendered pizzas/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 74ms (Views: 54.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for ::1 at 2016-06-23 17:40:50 +0800
+Processing by HomeController#index as HTML
+  Rendering home/index.html.erb within layouts/application
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 71ms (Views: 64.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/orders" for ::1 at 2016-06-23 17:40:51 +0800
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/index.html.erb within layouts/application (33.4ms)
+Completed 200 OK in 100ms (Views: 77.1ms | ActiveRecord: 9.3ms)
+
+
+Started GET "/orders/new" for ::1 at 2016-06-23 17:40:53 +0800
+Processing by OrdersController#new as HTML
+  Rendering orders/new.html.erb within layouts/application
+  [1m[36mCustomer Load (0.4ms)[0m  [1m[34mSELECT "customers".* FROM "customers"[0m
+  Rendered orders/_form.html.erb (3.8ms)
+  Rendered orders/new.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 58ms (Views: 50.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/orders" for ::1 at 2016-06-23 17:40:55 +0800
+Processing by OrdersController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3M6/jbHGNtqnP+ehpHOpGlrzdHJYxYDpEOC3q6uRvgT0h4aC8Gvsi7aiF0rno9MRhx0bCBmRlKNaS9417xcuDg==", "order"=>{"customer_id"=>"1"}, "commit"=>"Create Order"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  [1m[36mCustomer Load (0.2ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "orders" ("customer_id", "created_at", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["customer_id", 1], ["created_at", 2016-06-23 09:40:55 UTC], ["updated_at", 2016-06-23 09:40:55 UTC]]
+  [1m[35m (2.3ms)[0m  [1m[35mCOMMIT[0m
+  [1m[36mPizza Load (0.7ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" ORDER BY "pizzas"."id" DESC LIMIT $1[0m  [["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[35mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "order_items" ("order_id", "pizza_id", "created_at", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["order_id", 4], ["pizza_id", 3], ["created_at", 2016-06-23 09:40:55 UTC], ["updated_at", 2016-06-23 09:40:55 UTC]]
+  [1m[35m (2.4ms)[0m  [1m[35mCOMMIT[0m
+Redirected to http://localhost:3000/orders/4
+Completed 302 Found in 38ms (ActiveRecord: 11.0ms)
+
+
+Started GET "/orders/4" for ::1 at 2016-06-23 17:40:55 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mOrder Load (0.3ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 4], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPizza Load (1.1ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" INNER JOIN "order_items" ON "pizzas"."id" = "order_items"."pizza_id" WHERE "order_items"."order_id" = $1 ORDER BY "pizzas"."id" ASC LIMIT $2[0m  [["order_id", 4], ["LIMIT", 1]]
+  Rendered orders/show.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 51ms (Views: 46.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/orders" for ::1 at 2016-06-23 17:42:39 +0800
+Processing by OrdersController#index as HTML
+  Rendering orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.4ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mCACHE (0.1ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendered orders/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 63ms (Views: 56.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/orders/1" for ::1 at 2016-06-23 17:42:40 +0800
+Processing by OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mOrder Load (0.8ms)[0m  [1m[34mSELECT  "orders".* FROM "orders" WHERE "orders"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  Rendering orders/show.html.erb within layouts/application
+  [1m[36mCustomer Load (0.3ms)[0m  [1m[34mSELECT  "customers".* FROM "customers" WHERE "customers"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  [1m[36mPizza Load (1.0ms)[0m  [1m[34mSELECT  "pizzas".* FROM "pizzas" INNER JOIN "order_items" ON "pizzas"."id" = "order_items"."pizza_id" WHERE "order_items"."order_id" = $1 ORDER BY "pizzas"."id" ASC LIMIT $2[0m  [["order_id", 1], ["LIMIT", 1]]
+  Rendered orders/show.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 52ms (Views: 42.2ms | ActiveRecord: 2.0ms)
+
+

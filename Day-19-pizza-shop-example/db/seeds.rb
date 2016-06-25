@@ -8,16 +8,17 @@
 
 Customer.destroy_all
 
+# add new customer with add
+customer = Customer.new({
+  name: "Jon",
+  address: "1 KS Rd, b",
+  email: "jon@gmail.com"  })
 
-customer = Customer.new 
-customer.name = "Jon"
-customer.address = "1 KS Rd"
-customer.email = "jon@gmail.com"
-if customer.save
-    puts "record saved!"
-end
-
+customer.save!
+# add new customer with create
 Customer.create!({
     name: "Gab",
     address: "1 KS Rd, b",
     email: "gab@gmail.com" })
+
+puts "DB Seeded!"

@@ -6,8 +6,12 @@
 </p>
 
 <p>
-  <strong>Cheese:</strong>
-  <%= @pizza.cheese %>
+  <strong>Toppings:</strong>
+  <ul>
+    <% @pizza.toppings.each do |t| %>
+      <li><%= t.name %></li>
+    <% end %>
+  </ul>
 </p>
 
 <%= link_to 'Edit', edit_pizza_path(@pizza) %> |

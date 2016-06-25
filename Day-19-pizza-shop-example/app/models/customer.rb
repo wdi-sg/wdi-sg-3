@@ -1,5 +1,8 @@
 class Customer < ApplicationRecord
     has_many :orders, dependent: :destroy
+    has_many :order_items, through: :orders
+    has_many :pizzas, through: :order_items
+    has_many :toppings, through: :pizzas
 
     def orders
       Order.where(customer_id: id)

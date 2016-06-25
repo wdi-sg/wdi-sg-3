@@ -6,7 +6,6 @@
   <thead>
     <tr>
       <th>Name</th>
-      <th>Cheese</th>
       <th colspan="3"></th>
     </tr>
   </thead>
@@ -15,7 +14,6 @@
     <% @pizzas.each do |pizza| %>
       <tr>
         <td><%= pizza.name %></td>
-        <td><%= pizza.cheese %></td>
         <td><%= link_to 'Show', pizza %></td>
         <td><%= link_to 'Edit', edit_pizza_path(pizza) %></td>
         <td><%= link_to 'Destroy', pizza, method: :delete, data: { confirm: 'Are you sure?' } %></td>

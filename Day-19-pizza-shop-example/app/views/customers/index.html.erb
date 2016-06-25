@@ -1,6 +1,4 @@
 
-<ul>
-    <% @customers.each do |customer| %>
-    <li><%= customer.name %></li>
-    <% end %>
-</ul>
+  <% @customers.each do |customer| %>
+  <h3><%= link_to customer.name, customer %></h3>
+  <% end %>

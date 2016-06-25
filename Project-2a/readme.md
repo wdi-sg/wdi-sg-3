@@ -23,7 +23,6 @@ There's lots of opportunity for you to then turn this into twitter, feedback, me
 [ ] view any user's posts    
 
 ### Set Up Instructions to run tests
-0. Replace the spec folder that rails generated for you with the spec folder in this repo
 0. To your Gemfile:, delete the existing `group :development, :test do` chunk and add this:
 
   ```
@@ -45,4 +44,5 @@ There's lots of opportunity for you to then turn this into twitter, feedback, me
 2. rake db:create, rake db:migrate
 4. scaffold your posts with necessary fields and relations
 5. rake db:migrate
-6. now onwards, you can run your tests with `rspec`. to run a specific file, run `rspec path_to_file`
+6. **Do this after you scaffold your stuff** Replace the spec folder that rails generated for you with the spec folder in this repo
+7. now onwards, you can run your tests with `rspec`. to run a specific file, run `rspec path_to_file`

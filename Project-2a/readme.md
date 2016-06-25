@@ -22,7 +22,7 @@ There's lots of opportunity for you to then turn this into twitter, feedback, me
 [ ] home: show everyone's posts sorted reverse chronological order    
 [ ] view any user's posts    
 
-### Instructions
+### Set Up Instructions to run tests
 0. Replace the spec folder that rails generated for you with the spec folder in this repo
 0. To your Gemfile:, delete the existing `group :development, :test do` chunk and add this:
 
@@ -41,9 +41,8 @@ There's lots of opportunity for you to then turn this into twitter, feedback, me
   end
   ```
 0. run `bundle install`
-
-
-
-### How to run tests
-The tests expect a user and post MVC before you can run it. So generate/scaffold your user and post model before you run the tests.
-in terminal, run `rspec`
+1. scaffold your user with necessary fields
+2. rake db:create, rake db:migrate
+4. scaffold your posts with necessary fields and relations
+5. rake db:migrate
+6. now onwards, you can run your tests with `rspec`. to run a specific file, run `rspec path_to_file`

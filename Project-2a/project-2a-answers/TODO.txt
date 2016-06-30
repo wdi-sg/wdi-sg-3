@@ -1,0 +1,16 @@
+Session
+[X] sign in
+[X] sign up
+[X] user model validations (email uniqueness, email validity, password length)
+[X] sign out
+
+Blogs scoped to a user
+[X] create
+[X] index
+[X] show
+[X] update
+[X] delete
+
+Public
+[X] home: show everyone's posts sorted reverse chrono
+[X] view any user's posts

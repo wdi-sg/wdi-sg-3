@@ -25,4 +25,4 @@ http://flight846.github.io/wdi-project1b-ONaG/
 https://wdi3-wiki.herokuapp.com/
 
 - Project 2a- Rails CRUD application (Q & A platform)
-[Query.Me](http://queryme.herokuapp.com/)
+[Query.Me](https://queryme2016.herokuapp.com/)

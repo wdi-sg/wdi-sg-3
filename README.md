@@ -1,3 +1,18 @@
+<<<<<<< HEAD
+Projects Completed by Li Min-Lew
+
+examplepage
+http://snowsandpatrol.github.io/examplepage/
+
+tic-tac-toe
+http://snowsandpatrol.github.io/tic-tac-toe/
+
+project 1(a) - quiz
+http://snowsandpatrol.github.io/quiz/
+
+project 1(b) mathgame
+http://snowsandpatrol.github.io/mathgame/
+=======
 # WDI SG 3
 This is the main workspace for WDI SG 3. Here you will find all the course materials: assignments, starter-code etc.   
 Lesson notes will be kept in the [wiki](https://github.com/jeremiahalex/wdi-sg-3/wiki).   
@@ -50,3 +65,4 @@ __You must also use this repo to notify of your completed homework. Follow the C
     + Roughly, how long did it take?
 
 Note: If you don't mention anything in the comments, I'll assume you had no problems at all with it!
+>>>>>>> 9e1d0df84e23d2e5d9039de055dc18aeac13ae83

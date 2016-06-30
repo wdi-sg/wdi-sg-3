@@ -1,0 +1,19 @@
+<% if signed_in? %>
+  Hello, <%= current_user.email %>
+  <%= link_to 'New Post', new_user_post_path(current_user) %>
+  <%= link_to 'Sign Out', sign_out_path, method: :post  %>
+<% else %>
+  <%= link_to 'Sign Up', sign_up_path %>
+  <%= link_to 'Sign In', sign_in_path %>
+<% end %>
+
+<h1>Everyone's Posts</h1>
+
+<ol class='posts'>
+  <%= @posts.each do |post| %>
+    <li class='post'>
+      <div class='post_title'><%= post.title %></div>
+      <div class='post_body'><%= post.body %></div>
+    </li>
+  <% end %>
+</ol>

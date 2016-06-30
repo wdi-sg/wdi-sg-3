@@ -1,7 +1,7 @@
+
 Projects Completed by Li Min-Lew
 
 biography page
-
 http://snowsandpatrol.github.io/examplepage/
 
 tic-tac-toe
@@ -15,4 +15,3 @@ http://snowsandpatrol.github.io/quiz/
 
 project 2(b) book list
 https://hidden-brook-21532.herokuapp.com/
-s

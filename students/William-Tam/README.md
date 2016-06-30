@@ -4,8 +4,9 @@
 -Expanded 2A, features user follow / post like capabilities.
 -Paperclip doesn't work at the moment because my credit card is still in the
 mail, so I couldn't get an AWS or Google Cloud server.
-https://github.com/WillHTam/POSTR
-https://shrouded-beyond-13491.herokuapp.com/
+-Heroku didn't like my SMTP settings, kept refusing to accept the push
+https://github.com/WillHTam/POSTR2
+https://secret-crag-82769.herokuapp.com/users
 
 
 Side Projects

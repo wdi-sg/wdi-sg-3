@@ -10,5 +10,5 @@
 
 ### Unit 2:
 * Mini project (a **very** basic page about sesame street characters): https://thawing-waters-71531.herokuapp.com
-* Project 2A (mini blogging site): https://github.com/davified/project2a_1
+* Project 2A (mini blogging site): http://young-peak-30532.herokuapp.com/ & https://github.com/davified/project2a_1
 * Project 2B (social media for volunteers): http://volunteer-now.herokuapp.com/ & https://github.com/davified/volunteer_app

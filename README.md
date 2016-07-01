@@ -1,3 +1,4 @@
+
 # WDI SG 3
 This is the main workspace for WDI SG 3. Here you will find all the course materials: assignments, starter-code etc.   
 Lesson notes will be kept in the [wiki](https://github.com/jeremiahalex/wdi-sg-3/wiki).   

@@ -6,4 +6,4 @@ Project 1
 
 Project 2
 *[blog](https://secret-garden-75338.herokuapp.com/articles)
-*[foundify](https://agile-woodland-18228.herokuapp.com/)
+*[foundify](https://foundify.herokuapp.com/)

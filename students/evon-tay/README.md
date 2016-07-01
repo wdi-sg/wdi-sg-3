@@ -22,3 +22,11 @@ Link: http://evontay.github.io/quizzo/
 ##6. Morse Decoder Game
 Github: https://github.com/evontay/morse-game
 Link: http://evontay.github.io/morse-game
+
+##7. Project 2A: TDD Rails project
+Github: https://github.com/evontay/wdiproject2
+Link: https://blooming-fortress-59199.herokuapp.com/
+
+##8. Project 2B: Plants Wiki
+Github: https://github.com/evontay/plants-wiki
+Link: http://plants-wiki.herokuapp.com/

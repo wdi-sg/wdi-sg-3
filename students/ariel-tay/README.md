@@ -35,3 +35,11 @@
 **Mini Project** "Snoopy-Tribute" :
 + File - https://github.com/arieltsq/wiki
 + View as html - https://snoopy-tribute.herokuapp.com/
+
+**Project 2A** "Blog" :
++ File - https://github.com/arieltsq/Blog
++ View as html - https://project2a-blog.herokuapp.com/
+
+**Project 2B** "Resummary" :
++ File - https://github.com/arieltsq/Resummary
++ View as html - https://resummary.herokuapp.com

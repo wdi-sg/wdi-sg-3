@@ -10,6 +10,9 @@ Projects
 + Project 1a Quiz gh page: http://fay2wk.github.io/project1a/
 + Project 1b Game github: https://github.com/fay2wk/project1b
 + Project 1b Game gh page: http://fay2wk.github.io/project1b/
++ Project 2a: http://fay2wk.github.io/project2a/, http://fay2wk.github.io/2a_styled
++ Project 2b: http://fay2wk.github.io/sleepgud/
+
 
 Labs
 + Moving ball: https://github.com/fay2wk/movingball

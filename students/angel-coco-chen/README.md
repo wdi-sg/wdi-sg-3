@@ -12,7 +12,7 @@
 
 
 ### Project (Biography Website)
-* #### [Isaac Asimov](http://sprazzeus.github.io/wdi/01-Unit1/00-week1-project-biographyWebsite) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-week1-project-biographyWebsite))
+* [Isaac Asimov](http://sprazzeus.github.io/wdi/01-Unit1/00-week1-project-biographyWebsite) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-week1-project-biographyWebsite))
 
 ## WEEK 2
 
@@ -30,7 +30,7 @@
 
 ### Project (Tic Tac Toe)
 
-* #### [☁ vs ✈](http://sprazzeus.github.io/wdi/01-Unit1/00-week2-project-tictactoe/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-week2-project-tictactoe))
+* [☁ vs ✈](http://sprazzeus.github.io/wdi/01-Unit1/00-week2-project-tictactoe/) (view [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-week2-project-tictactoe))
 
 ## WEEK 3
 
@@ -41,3 +41,21 @@ View on [GitHub](00-project1a-theGame).
 ### Project 1b —  [(Mastermind)](http://sprazzeus.github.io/wdi/01-Unit1/00-project1b/)
 
 View on [GitHub](https://github.com/sprazzeus/wdi/tree/master/01-Unit1/00-project1b).
+
+# { Unit 02 }
+
+## WEEK 04
+
+### Project (Wiki)
+
+* Jellyfish Wiki — View on [GitHub](https://github.com/sprazzeus/wdi/tree/master/02-Unit2)
+
+## WEEK 05
+
+### Project 2a — [Mini Blogging Platform](http://sprazzeus-blog.herokuapp.com/)
+
+View on [GitHub](https://github.com/sprazzeus/mini-blogging-platform)
+
+### Project 2b — [Frank](http://sprazzeus-frank.herokuapp.com/)
+
+View on [GitHub](https://github.com/sprazzeus/frank)

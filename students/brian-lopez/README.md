@@ -1,6 +1,6 @@
 Brian Lopez
 
-Game Project Quiz
+Game Project Quiz (Project 1)
 http://jbrianlopez.github.io/quiz/
 
 TicTacToe
@@ -16,4 +16,6 @@ Restaurant
 http://jbrianlopez.github.io/restaurant/
 
 PROJECT 2A
-Microblog project can be found on heroku at https://limitless-headland-46574.herokuapp.com/ 
+Presented version is on Github repo is https://github.com/jbrianlopez/project2mvp
+Microblog project MVP can be found on heroku at https://limitless-headland-46574.herokuapp.com/ 
+

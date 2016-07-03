@@ -23,3 +23,6 @@ http://flight846.github.io/wdi-project1b-ONaG/
 
 - Week 3 Day 5 Mini Project 2 (Wiki)
 https://wdi3-wiki.herokuapp.com/
+
+- Project 2a- Rails CRUD application (Q & A platform)
+[Query.Me](https://queryme2016.herokuapp.com/)

@@ -32,5 +32,17 @@ A survival horror game where tetris has been driven mad
 Repo: https://github.com/RedSwift/Broken
 Web: redswift.github.io/Broken
 
+------ mini-blog (2A) ---------
+A mini-blog built to pass the tests provided
+(Ruby On Rails)
+Repo: https://github.com/RedSwift/mini-blog
+Web: https://sleepy-sierra-68864.herokuapp.com/
+
+------ dashboard (v2) ------
+An attempt at creating a student dashboard based on GA
+(Ruby On Rails)
+Repo: https://github.com/RedSwift/dashboard2
+Web: https://notmydashboard.heroku.com
+
 
 

@@ -20,10 +20,6 @@ Make use of the fantastic and delicious https://api.doughnuts.ga.  Your task is 
 - Update an existing API resource from your client with new data
 - Destroy an existing API resource from your client
 
-#### Starter Code
-
-You'll find the same starter code you had in the last lesson in the `starter-code` folder. It's a basic index and some styling, along with an empty `js/app.js`.
-
 #### Deliverable
 
 Make a list of existing doughnuts underneath the form, make the form work, and then, build your app to add to the list of donuts - using the information from newly created donuts - without refreshing the page.

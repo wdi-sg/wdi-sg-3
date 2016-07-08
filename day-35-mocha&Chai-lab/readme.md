@@ -1,13 +1,3 @@
----
-title: Testing with Mocha/Chai Lab
-type: lab
-duration: "1:25"
-creator:
-    name: Gerry Mathe
-    city: London
-competencies: Testing
----
-
 # Testing with Mocha/Chai Lab
 
 ## Introduction

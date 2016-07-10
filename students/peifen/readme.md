@@ -1,4 +1,4 @@
-#PEIFEN
+#WU PEI FEN
 
 Projects 1A
 
@@ -10,3 +10,4 @@ Project 2A
 
 Mini Photo Blog Platform
 github: https://github.com/peifen-wu/pixell
+

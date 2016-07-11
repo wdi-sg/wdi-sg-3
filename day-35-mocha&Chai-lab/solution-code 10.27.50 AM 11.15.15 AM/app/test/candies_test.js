@@ -4,7 +4,7 @@ var should = require('chai').should(),
   api = supertest('http://localhost:3000')
 
 var mongoose = require('mongoose')
-mongoose.connect('mongodb://localhost:27017/candies-app')
+
 
 Candy = require('../models/Candy.js')
 

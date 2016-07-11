@@ -1,19 +1,18 @@
 var express = require('express'),
-    router = express.Router(),
-    bodyParser = require('body-parser'), //parses information from POST
-    methodOverride = require('method-override'); //used to manipulate POST
+  router = express.Router(),
+  bodyParser = require('body-parser'), // parses information from POST
+  methodOverride = require('method-override') // used to manipulate POST
 
-var candiesController = require('../controllers/candies');
+var candiesController = require('../controllers/candies')
 
 // http://127.0.0.1:3000/candies
 router.route('/candies')
 
-  //GET all candies
+  // GET all candies
   .get(candiesController.getAll)
 
-  //POST a new blob
-  .post(candiesController.createCandy);
-
+  // POST a new blob
+  .post(candiesController.createCandy)
 
 router.route('/candies/:id')
 
@@ -24,7 +23,6 @@ router.route('/candies/:id')
   .patch(candiesController.updateCandy)
 
   // DELETE remove specific candy from DB
-  .delete(candiesController.removeCandy);
-
+  .delete(candiesController.removeCandy)
 
 module.exports = router

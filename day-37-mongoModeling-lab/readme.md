@@ -15,9 +15,9 @@ To practice using Mongoose and embedded and referenced documents, we will design
 
   - Airport
     - Name(String)
-      - country(String)
-      - terminals(Array of embedded Terminal Objects)
-      - opened(Date)
+    - country(String)
+    - terminals(Array of embedded Terminal Objects)
+    - opened(Date)
   - Terminal
     - name(String)
     - flights(Array of referenced Flight Objects)

@@ -4,8 +4,13 @@ var express = require('express'),
   methodOverride = require('method-override') // used to manipulate POST
 
 var candiesController = require('../controllers/candies')
+// Allow cross-domain Ajax requests
+router.use(function (req, res, next) {
+  res.header('Access-Control-Allow-Origin', '*')
+  res.header('Access-Control-Allow-Headers', 'Origin, X-Requested-With, Content-Type, Accept')
+  next()
+})
 
-// http://127.0.0.1:3000/candies
 router.route('/candies')
 
   // GET all candies

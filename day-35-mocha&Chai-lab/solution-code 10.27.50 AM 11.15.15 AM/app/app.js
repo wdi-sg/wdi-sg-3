@@ -19,13 +19,12 @@ test.save(function (error, candy) {
 })
 
 var routes = require('./config/routes')
-
 app.use(logger('dev'))
 app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({ extended: true }))
 
 app.use(routes)
-app.get(/candies, function getAll (req, res){
+app.get('/candies', function getAll (req, res) {
   //
 })
 

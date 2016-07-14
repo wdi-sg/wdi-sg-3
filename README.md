@@ -9,9 +9,9 @@ If you have issues you can [raise them as issues](https://github.com/jeremiahale
 __You must also use this repo to notify of your completed homework. Follow the Contribution Instructions below.__
 
 ## Read Only Instructions
-- The quickest way to get a copy of the files on your system, is to just clone this repository to your local machine. 
+- The quickest way to get a copy of the files on your system, is to just clone this repository to your local machine.
     + `git clone https://github.com/jeremiahalex/wdi-sg-3`
-    
+
 ## Contribution Instructions
 
 - So you can notify about project completion you should fork this repository
@@ -51,3 +51,7 @@ __You must also use this repo to notify of your completed homework. Follow the C
     + Roughly, how long did it take?
 
 Note: If you don't mention anything in the comments, I'll assume you had no problems at all with it!
+
+## Licensing
+0. All content is licensed under a CC­BY­NC­SA 4.0 license.    
+0. All software code is licensed under GNU GPLv3. For commercial use or alternative licensing, please contact legal@ga.co.

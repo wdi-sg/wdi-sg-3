@@ -13,6 +13,7 @@ While your last project taught you how to get started with Ruby, SQL, & Ruby on 
 Make it work, and make it awesome.
 
 ---
+
 ### Technical Requirements
 ​
 Your project will consist of 2 Parts.
@@ -39,6 +40,7 @@ In addition you must:
 * **Manage team contributions and collaboration** using a standard Git workflow on GitHub
 
 ---
+
 ### Necessary Deliverables
 ​
 * A **working API, built by the whole team**, hosted on Heroku
@@ -55,6 +57,7 @@ In addition you must:
     * Descriptions of any **unsolved problems** or **major hurdles** your team had to overcome
 * Each team member must update their README.md in the shared class repo
 ​
+
 ---
 ​
 ### Presentation
@@ -65,6 +68,7 @@ Each team will have 20 minutes to present and 10 minutes for Q&A. This must incl
 * Code Explanation with each member explaining part of the code they contributed
 ​
 ---
+
 ### Part B
 ​
 What fun would the project be without a Part B :-)
@@ -72,6 +76,7 @@ What fun would the project be without a Part B :-)
 As an extension. Create a new Client App for an API produced by one of the other groups in the class.
 ​
 ---​
+
 ### Suggested Ways to Get Started
 ​
 * **Don’t hesitate to write throwaway code** to solve short term problems.
@@ -86,6 +91,7 @@ As an extension. Create a new Client App for an API produced by one of the other
 * **Write pseudocode before you write actual code.** Thinking through the logic of something helps.
 ​
 ---
+
 ### Potential Project Ideas
 ​
 For this project, we want you to work with your team to build a creative product that you actually think someone will want to use. We won't have time to do tons of customer research, but take some time to brainstorm. If you're struggling for ideas, the ones below could help get you started.

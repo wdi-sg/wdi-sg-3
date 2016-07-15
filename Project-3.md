@@ -26,13 +26,12 @@ Your Server must:
 * **Create an API using at least 2 related models**, one of which should be a user
 * Include **all major CRUD functions** in a **RESTful API** for at least one of those models
 * **Add authentication to your API** to restrict access to appropriate users
-* **Deploy your Server App online on Heroku**
+* **Deploy your Server App online on Heroku, via Continuous Integration or not is up to your team**
 ​
 Your Client must:
 ​
 * **Consume your own API** by making your front-end with HTML, Javascript, & jQuery & AJAX
 * Layout and style your front-end with **clean & well-formatted CSS**
-* **Deploy your application online** so it's publicly accessible
 * **Deploy your Client App online on Github Pages**
 ​
 In addition you must:

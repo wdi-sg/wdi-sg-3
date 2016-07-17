@@ -15,3 +15,9 @@ http://snowsandpatrol.github.io/quiz/
 
 project 2(b) book list
 https://hidden-brook-21532.herokuapp.com/
+
+project 3(a)
+https://snowsandpatrol.github.io/movie-api/
+
+project 3(b)
+https://snowsandpatrol.github.io/aboutmeAPI/ 

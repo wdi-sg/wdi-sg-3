@@ -1,10 +1,34 @@
 #William Tam
 
+##Project 3
+
+### Server Side
+* API that connects with Instaparser and MLab
+https://github.com/WillHTam/Project3-Server
+https://project3pockety.herokuapp.com/
+
+### Client Side
+* Client that makes an AJAX call to our API
+* Styles returned content
+https://github.com/WillHTam/Project3-Client
+https://willhtam.github.io/Project3-Client/login
+
+### Firefox Extension
+* Extension for Firefox that automatically adds the current page to your Stash
+https://github.com/WillHTam/Project3-Extension
+
+### Mini Project 3A
+* Search Spotify with an AJAX request. Search Tracks to bring up players for
+each of the results
+https://github.com/WillHTam/MiniProject3A
+https://willhtam.github.io/MiniProject3A/
+
+### Mini Project 3B
+* API about me
+https://github.com/WillHTam/MiniProject3B
+
 -POSTR
 -Expanded 2A, features user follow / post like capabilities.
--Paperclip doesn't work at the moment because my credit card is still in the
-mail, so I couldn't get an AWS or Google Cloud server.
--Heroku didn't like my SMTP settings, kept refusing to accept the push
 https://github.com/WillHTam/POSTR2
 https://secret-crag-82769.herokuapp.com/users
 

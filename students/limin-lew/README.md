@@ -19,5 +19,12 @@ https://hidden-brook-21532.herokuapp.com/
 project 3(a)
 https://snowsandpatrol.github.io/movie-api/
 
-project 3(b)
-https://snowsandpatrol.github.io/aboutmeAPI/ 
+project 3(b) aboumeAPI
+https://quiet-headland-89346.herokuapp.com/profile
+https://quiet-headland-89346.herokuapp.com/education
+
+project 4(a) aboutmeAPI_frontend
+https://snowsandpatrol.github.io/aboutmeAPI_frontend/#
+
+Final Project
+https://calm-anchorage-24635.herokuapp.com/

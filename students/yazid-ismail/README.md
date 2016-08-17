@@ -25,7 +25,7 @@ https://github.com/flight846/wdi3-timerjs
 
 ##Projects
 
-- Project 1a (HTML Quiz Game)
+- Project 1a- HTML Quiz Game
 [HTML Quiz Game](http://flight846.github.io/wdi-project1a-html-quiz-game/)
 
 - Project 1b- HTML Game (Simons Says)
@@ -33,3 +33,13 @@ https://github.com/flight846/wdi3-timerjs
 
 - Project 2a- Rails CRUD application (Q & A platform)
 [Query.Me](https://queryme2016.herokuapp.com/)
+
+- Project 3b- Group Work
+Client [Readr Client](http://flight846.github.io/readr-client)
+Server [Readr API](https://readr-app.herokuapp.com/)
+
+- Project 4- NodeJS/ExpressJS Client & API
+[AnythingHalal](http://anything-halal.herokuapp.com/)
+[AnythingHalal API](http://anything-halal.herokuapp.com/api/listings)
+
+Thank you for all the guidance and support!! All the best your future endeavours! Keep in touch!

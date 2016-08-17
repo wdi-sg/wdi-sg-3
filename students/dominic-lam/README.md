@@ -44,5 +44,27 @@ An attempt at creating a student dashboard based on GA
 Repo: https://github.com/RedSwift/dashboard2
 Web: https://notmydashboard.heroku.com
 
+------ trip-over (3b) ------
+Back-end API for a travel planner
+(NodeJS, MongoDB, ExpressJS)
+Repo: https://github.com/fay2wk/trip-over
+Web: http://trip-over.herokuapp.com
 
+---- trip-over-front (3b) ----
+Front-end client for a travel planner, consuming our own API
+(JQuery & Ajax, HTML, CSS, Bootstrap)
+Repo: https://github.com/wayneangoh/trip-over-front
+Web: https://wayneangoh.github.io/trip-over-front/
+
+----- portfolio website (4a) -----
+A full stack portfolio website
+(MongoDB, ExpressJS, AngularJS, NodeJS, Angular Material)
+Repo: https://github.com/RedSwift/profile-website
+Web: https://redswift.herokuapp.com/
+
+----- admin-dashboard (4b) -----
+A full stack admin management system
+(MongoDB, ExpressJS, AngularJS, NodeJS, Angular Material)
+Repo: https://github.com/RedSwift/admin-dashboard
+Web: https://church-admin.herokuapp.com
 

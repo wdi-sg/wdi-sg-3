@@ -58,9 +58,9 @@ Web: https://wayneangoh.github.io/trip-over-front/
 
 ----- portfolio website (4a) -----
 A full stack portfolio website
-(MongoDB, ExpressJS, AngularJS, NodeJS, Angular Material)
+(React, Redux, CSS, Material UI)
 Repo: https://github.com/RedSwift/profile-website
-Web: https://redswift.herokuapp.com/
+Web: http://redswift.netlify.com/
 
 ----- admin-dashboard (4b) -----
 A full stack admin management system
